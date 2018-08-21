@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,800');
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 800;
+}
+
+.navbar-brand {
+    padding-left: 250px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#navbarSupportedContent {
+    font-size: 12px;
+    padding-right: 200px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+section{
+    letter-spacing: 1px;
+}
+
+.bgimage {
+    width: 100%;
+    height: 500px;
+    background: url('../img/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.bgimage h1 {
+    color: #343A40;
+    font-size: 65px;
+    margin-top: 200px;
+}
+
+.bgimage p {
+    font-size: 50px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    ;
+}
+.paddingrp p{
+    padding-right: 70px;
+}
+.footer {
+    height: 50px;
+}
+
+footer>p {
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+.jumbo-dark {
+    background-color: #343A40;
+    color: white;
+}
+
+.jumbo-light {
+    background-color: #F8F9FA;
+    color: black;
+}
+
+.jumbo-light>button {
+    color: #343A40;
+    border-color: #343A40;
+}
+
+.margin0 {
+    margin: 0;
+}
+
+mark{
+   background-color:  #F8D7DA;
+}
+
+p{
+    font-size: 14px;
+}
