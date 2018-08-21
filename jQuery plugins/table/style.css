@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+
+body {
+    font-family: 'News Cycle', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 15px;
+}
+#myTable > thead > tr{
+    background-color: grey;
+}
+#myTable > tfoot{
+    background-color: rgb(128, 128, 128);
+}
+#myTable_filter > label > input[type="search"]{
+    border: 2px solid darkgrey;
+    border-radius: 14px;
+    padding: 5px;
+    outline: none;
+}
+
+table.dataTable thead .sorting_asc:after{
+    content: "";
+}
+table.dataTable thead .sorting:after{
+    content: "";
+}
+#myTable_length{
+    margin-left: 1%;
+}
+#myTable_filter{
+    margin-right: 1%;
+    margin-bottom: 5px;
+
+}
